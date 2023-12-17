@@ -1,1 +1,118 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.2/math.min.js"></script>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GNOME_Calculator_icon_2021.svg/1200px-GNOME_Calculator_icon_2021.svg.png" alt="File:GNOME Calculator icon 2021.svg - Wikipedia"/>
+    </head>
+    <header>
+        <h1 id="heading">CALCULATE</h1>
+    </header>
+    <body>
+        <main>
+        <section id="basic">
+            <h1 id="arithmetic_basic">BASIC ARITHMETICS</h1>
+            <input id="input_basic" type="number" placeholder="NUMBER">
+            <br>
+            <br>
+            <button id="add" onclick="add()">+</button>
+            <button id="subtract" onclick="subtract()">-</button>
+            <button id="multiply" onclick="multiply()">×</button>
+            <button id="divide" onclick="divide()">÷</button>
+            <button id="reset" onclick="reset()">C</button>
+            <p id="basic_sol"></p>
+        </section>
+        <section id="geometric">
+        <h1 id="geo">GEOMETRY</h1>
+        <h2 id="rectangle">RECTANGLE</h2>
+        <input id="input_rec_l" min="1" type="number" placeholder="LENGTH">
+        <input id="input_rec_w" min="1" type="number" placeholder="WIDTH">
+        <br>
+        <br>
+        <button id="rec_area" onclick="rectangleArea()">AREA</button>
+        <button id="rec_perimeter" onclick="rectanglePerimeter()">PERIMETER</button>
+        <button id="reset" onclick="reset2()">RESET</button>
+        <p id="rec_sol"></p>
+        <h2 id="triangle">AREA OF A TRIANGLE</h2>
+        <input id="input_tri_l" min="1" type="number" placeholder="LENGTH">
+        <input id="input_tri_a" min="1" type="number" placeholder="ALTITUDE">
+        <br>
+        <br>
+        <button id="tri_area" onclick="triangleArea()">CALCULATE</button>
+        <button id="reset" onclick="reset3()">RESET</button>
+        <p id="tri_sol"></p>
+        <h2 id="trapezoid">AREA OF A TRAPEZOID</h2>
+        <input id="input_trap_b1" min="1" type="number" placeholder="BASE 1">
+        <input id="input_trap_b2" min="1" type="number" placeholder="BASE 2">
+        <input id="input_trap_h" min="1" type="number" placeholder="HEIGHT">
+        <br>
+        <br>
+        <button id="trap_area" onclick="trapezoidArea()">CALCULATE</button>
+        <button id="reset" onclick="reset4()">RESET</button>
+        <p id="trap_sol"></p>
+        <h2 id="circle">CIRCLE</h2>
+        <input id="input_circle_r" min="1" type="number" placeholder="radius">
+        <br>
+        <br>
+        <button id="circle_area" onclick="circleArea()">AREA</button>
+        <button id="circle_circumference" onclick="circleCircumference()">CIRCUMFERENCE</button>
+        <button id="reset" onclick="reset5()">RESET</button>
+        <p id="circle_sol"></p>
+        </section>
+        <section id="advanced">
+            <h1 id="adv">ADVANCED ARITHMETICS</h1>
+            <h2 id="exponent">EXPONENTS</h2>
+            <input id="input_exp_base" type="number" placeholder="BASE">
+            <input id="input_exp_exponent" type="number" placeholder="EXPONENT">
+            <br>
+            <br>
+            <button id="exp_calc" onclick="exponent()">CALCULATE</button>
+            <button id="reset" onclick="reset6()">RESET</button>
+            <p id="exp_sol"></p>
+            <h2 id="factorial">FACTORIAL</h2>
+            <input id="input_fact_num" type="number" placeholder="NUMBER">
+            <br>
+            <br>
+            <button id="fact_calc" onclick="factorial()">CALCULATE</button>
+            <button id="reset" onclick="reset7()">RESET</button>
+            <p id="fact_sol"></p>
+            <h2 id="logarithm">LOGARITHM</h2>
+            <input id="input_log_base" type="number" placeholder="BASE">
+            <input id="input_log_num" type="number" placeholder="NUMBER">
+            <br>
+            <br>
+            <button id="log_calc" onclick="logarithm()">CALCULATE</button>
+            <button id="reset" onclick="reset8()">RESET</button>
+            <p id="log_sol"></p>
+        </section>
+        <section id="conversion">
+            <h1 id="conv">CONVERSION</h1>
+            <h2 id="temperature">TEMPERATURE</h2>
+            <input id="input_temp_celsius" min="1" type="number" placeholder="CELSIUS">
+            <input id="input_temp_fahrenheit" min="1" type="number" placeholder="FAHRENHEIT">
+            <br>
+            <br>
+            <button id="temp_c2f" onclick="celsiusToFahrenheit()">CONVERT CELSIUS TO FAHRENHEIT</button>
+            <button id="temp_f2c" onclick="fahrenheitToCelsius()">CONVERT FAHRENHEIT TO CELSIUS</button>
+            <button id="reset" onclick="reset9()">RESET</button>
+            <p id="temp_sol"></p>
+            <h2 id="length">LENGTH</h2>
+            <input id="input_length_cm" min="1" type="number" placeholder="CM">
+            <input id="input_length_in" min="1" type="number" placeholder="IN">
+            <br>
+            <br>
+            <button id="length_cm2in" onclick="cmToInch()">CONVERT CENTIMETERS TO INCHES</button>
+            <button id="length_in2cm" onclick="inchToCm()">CONVERT INCHES TO CENTIMETERS</button>
+            <button id="reset" onclick="reset10()">RESET</button>
+            <p id="length_sol"></p>
+        </section>
+    </main>
+    <footer>
+        <p id="description">Access source code through <a id="open_source_link" href="https://github.com/sban2/Calculate.or">this Github repository</a>.</p>    
+    </footer>
+    </body>
+</html>
