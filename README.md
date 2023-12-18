@@ -1,4 +1,4 @@
-current version: v2.2.7
+current version: v2.3.0
 
 currently working on remodeling floating point math in JS: 0.2 + 0.1 = 0.30000000000000004
 
