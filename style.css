@@ -3,11 +3,6 @@ html {
     color: white;
     margin-left: 50px;
 }
-.basic {
-    width: 25px;
-    background-color: rgb(6, 0, 46);
-    color: white;
-}
 input {
     margin-top: 15px;
     margin-bottom: 15px;
