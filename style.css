@@ -3,6 +3,7 @@ html {
     color: white;
     margin-left: 50px;
 }
+
 input {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -13,6 +14,11 @@ input {
     border-radius: 5px;
     margin-right: 15px;
 }
+
+.basic {
+    width: 25px;
+}
+
 button {
     border-radius: 5px;
     height: 25px;
@@ -24,28 +30,36 @@ button {
     border-width: 0px;
     text-align: center; 
 }
+
 h1 {
     font-size: 25px;
 }
+
 h2 {
     font-size: 15px;
 }
+
 #heading {
     margin-left: -40px;
     font-size: 40px;
 }
+
 #description {
     margin-left: -40px;
 }
+
 a {
     color: blue;
 }
+
 a:visited {
     color:red;
 }
+
 a:hover {
     color: violet;
 }
+
 a:active {
     color: yellow;
 }
