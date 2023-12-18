@@ -95,7 +95,7 @@ function rectangleArea() {
     let radius = Number(document.getElementById('input_circle_r').value);
     let area = Math.PI * Math.pow(radius, 2);
     if (radius < 0) {
-      document.getElementById('circle_sol').innerText = "Cannot have a side-length or altitude of negative value";
+      document.getElementById('circle_sol').innerText = "Cannot have a radius of negative value";
       return;
     }
     document.getElementById('circle_sol').innerText = area;
@@ -105,7 +105,7 @@ function rectangleArea() {
     let radius = Number(document.getElementById('input_circle_r').value);
     let circumference = 2 * Math.PI * radius;
     if (radius < 0) {
-      document.getElementById('circle_sol').innerText = "Cannot have a side-length or altitude of negative value";
+      document.getElementById('circle_sol').innerText = "Cannot have a radius of negative value";
       return;
     }
     document.getElementById('circle_sol').innerText = circumference;
