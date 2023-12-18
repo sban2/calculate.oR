@@ -4,6 +4,10 @@ html {
     margin-left: 50px;
 }
 input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     background: black;
     color: white;
     border-color: white;
