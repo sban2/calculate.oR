@@ -5,6 +5,8 @@ html {
 }
 .basic {
     width: 25px;
+    background-color: rgb(6, 0, 46);
+    color: white;
 }
 input {
     margin-top: 15px;
