@@ -12,11 +12,14 @@ input {
 }
 button {
     height: 25px;
-    margin-right:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
     background: rgb(6, 0, 46);
     color: white;
     border-width: 0px;
-    text-align: center;
+    text-align: center; 
 }
 h1 {
     font-size: 25px;
