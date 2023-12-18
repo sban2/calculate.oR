@@ -123,7 +123,7 @@ function rectangleArea() {
    let factorial = 1;
 
    if (num < 0) {
-      document.getElementById('fact_sol').innerText = "This function is incapable of solving negative factorials"
+      document.getElementById('fact_sol').innerText = "This function is incapable of calculating the factorial of a negative number"
    } else {
       for (let i = 1; i <= num; i++) {
          factorial *= i;
