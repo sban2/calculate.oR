@@ -3,6 +3,8 @@ html {
     color: white;
     margin-left: 50px;
 }
+.basic {
+    width: 25px;
 input {
     margin-top: 15px;
     margin-bottom: 15px;
