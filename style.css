@@ -6,7 +6,6 @@ html {
 input {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 15px;
     margin-right: 15px;
     background: black;
     color: white;
@@ -19,7 +18,6 @@ button {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 15px;
-    margin-left: 15px;
     background: rgb(6, 0, 46);
     color: white;
     border-width: 0px;
